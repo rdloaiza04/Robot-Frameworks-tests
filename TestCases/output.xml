@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.7 on win32)" generated="2024-11-12T09:33:59.158499" rpa="false" schemaversion="5">
+<suite id="s1" name="GoogleTestSuite" source="C:\Users\Daniel\Desktop\Robot-Frameworks-tests\TestCases\GoogleTestSuite.robot">
+<test id="s1-t1" name="Google Test Successful Load" line="17">
+<kw name="GET" owner="RequestsLibrary">
+<msg time="2024-11-12T09:33:59.944356" level="INFO">GET Request : url=https://www.google.com/?query-ciao 
+ path_url=/?query-ciao 
+ headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg time="2024-11-12T09:33:59.944356" level="INFO">GET Response : url=https://www.google.com/?query-ciao 
+ status=200, reason=OK 
+ headers={'Date': 'Tue, 12 Nov 2024 15:34:10 GMT', 'Expires': '-1', 'Cache-Control': 'private, max-age=0', 'Content-Type': 'text/html; charset=ISO-8859-1', 'Content-Security-Policy-Report-Only': "object-src 'none';base-uri 'self';script-src 'nonce-MEjFWY9uhXkFWVJU7hjVhg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp", 'Accept-CH': 'Sec-CH-Prefers-Color-Scheme', 'P3P': 'CP="This is not a P3P policy! See g.co/p3phelp for more info."', 'Content-Encoding': 'gzip', 'Server': 'gws', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'Set-Cookie': 'AEC=AZ6Zc-Xc1wYB0l3Hm9QVkY1ZmX4DXWc3DIrSOjDGI59ObbqpIOvJ8Z6CKZ8; expires=Sun, 11-May-2025 15:34:10 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=519=t01aBkbBiepAUMEr6wcOw2nEX_ow3XhroYttci4CuhheNx1y41h4RFGRyKUxaPAm1M6-Ccxa4VlYg0uIoYD-rw6X_FqFbL73cuBOeBRII6hqK5eDMpnAfg8diV4tiXEOBghC6bhclz9Hv_S_3C2wVG8VZlbk0Wco1_NBoMM9PHRvc_633J_wVbdIAc7RVaCVL_0; expires=Wed, 14-May-2025 15:34:10 GMT; path=/; domain=.google.com; HttpOnly', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'} 
+ body=&lt;!doctype html&gt;&lt;html itemscope="" itemtype="http://schema.org/WebPage" lang="es-419"&gt;&lt;head&gt;&lt;meta content="text/html; charset=UTF-8" http-equiv="Content-Type"&gt;&lt;meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"&gt;&lt;title&gt;Google&lt;/title&gt;&lt;script nonce="MEjFWY9uhXkFWVJU7hjVhg"&gt;(function(){var _g={kEI:'cnUzZ_2IGdrBkPIPtLTxsAE',kEXPI:'0,3700253,689,442,538661,2872,2891,43028,30022,16105,78218,258423,8155,23350,22436,9779,62658,76208,15816,1804,16068,10339,686,19989,1632,13496,15783,5230292,10465,22,8834035,4,192,6,8,19,5,11,26,1,6,1,10,1,6,1,6,1,6,1,51,5,1,7439203,16496230,4043709,16673,2169858,23029351,12799,100481,11643,10979,15165,7146,1036,49429,21671,6753,1906,5,21968,7041,2097,4600,328,543,3916,1766,1116,22291,6,952,3625,5633,688,19333,6973,3548,1346,13703,15634,7070,7308,1525,1905,12568,797,16870,10669,1834,2722,2,4964,1379,868,1020,597,91,1711,1033,280,7783,44,3672,1682,41,4138,4596,3147,1283,475,1,4361,553,2547,4,330,314,1,30,2707,303,264,1,199,988,396,46,1,2253,5331,1270,8254,834,49,260,658,3995,728,387,1960,134,17,3,112,895,3,7,147,1007,529,37,1748,453,62,1753,1855,690,126,21,814,1202,1429,2,3138,616,4,2,126,80,1873,2,1710,553,1896,3,383,1901,31,941,2,385,372,513,95,35,132,258,195,370,63,440,510,109,538,94,3,32,164,1181,53,1734,1270,5,4,4,4,687,808,952,305,355,30,2,430,125,722,633,667,188,1119,282,2,52,328,248,10,123,671,214,76,148,332,1,141,767,328,327,1454,53,477,116,866,196,313,4,1129,98,135,103,12,131,1499,1064,17,686,3,469,875,2,11,1415,225,970,2,1012,21024443,380114,3,10838,6159,18,218,2562,704,875,1770,1426,21,2011,575,149,1213',kBL:'EI8K',kOPI:89978449};(function(){var a;((a=window.google)==null?0:a.stvsc)?google.kEI=_g.kEI:window.google=_g;}).call(this);})();(function(){google.sn='webhp';google.kHL='es-419';})();(function(){
+var h=this||self;function l(){return window.google!==void 0&amp;&amp;window.google.kOPI!==void 0&amp;&amp;window.google.kOPI!==0?window.google.kOPI:null};var m,n=[];function p(a){for(var b;a&amp;&amp;(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||m}function q(a){for(var b=null;a&amp;&amp;(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b}function r(a){/^http:/i.test(a)&amp;&amp;window.location.protocol==="https:"&amp;&amp;(google.ml&amp;&amp;google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a}
+function t(a,b,c,d,k){var e="";b.search("&amp;ei=")===-1&amp;&amp;(e="&amp;ei="+p(d),b.search("&amp;lei=")===-1&amp;&amp;(d=q(d))&amp;&amp;(e+="&amp;lei="+d));d="";var g=b.search("&amp;cshid=")===-1&amp;&amp;a!=="slh",f=[];f.push(["zx",Date.now().toString()]);h._cshid&amp;&amp;g&amp;&amp;f.push(["cshid",h._cshid]);c=c();c!=null&amp;&amp;f.push(["opi",c.toString()]);for(c=0;c&lt;f.length;c++){if(c===0||c&gt;0)d+="&amp;";d+=f[c][0]+"="+f[c][1]}return"/"+(k||"gen_204")+"?atyp=i&amp;ct="+String(a)+"&amp;cad="+(b+e+d)};m=google.kEI;google.getEI=p;google.getLEI=q;google.ml=function(){return null};google.log=function(a,b,c,d,k,e){e=e===void 0?l:e;c||(c=t(a,b,e,d,k));if(c=r(c)){a=new Image;var g=n.length;n[g]=a;a.onerror=a.onload=a.onabort=function(){delete n[g]};a.src=c}};google.logUrl=function(a,b){b=b===void 0?l:b;return t("",a,b)};}).call(this);(function(){google.y={};google.sy=[];var d;(d=google).x||(d.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1});var e;(e=google).sx||(e.sx=function(a){google.sy.push(a)});google.lm=[];var f;(f=google).plm||(f.plm=function(a){google.lm.push.apply(google.lm,a)});google.lq=[];var g;(g=google).load||(g.load=function(a,b,c){google.lq.push([[a],b,c])});var h;(h=google).loadAll||(h.loadAll=function(a,b){google.lq.push([a,b])});google.bx=!1;var k;(k=google).lx||(k.lx=function(){});var l=[],m;(m=google).fce||(m.fce=function(a,b,c,n){l.push([a,b,c,n])});google.qce=l;}).call(this);google.f={};(function(){
+document.documentElement.addEventListener("submit",function(b){var a;if(a=b.target){var c=a.getAttribute("data-submitfalse");a=c==="1"||c==="q"&amp;&amp;!a.elements.q.value?!0:!1}else a=!1;a&amp;&amp;(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener("click",function(b){var a;a:{for(a=b.target;a&amp;&amp;a!==document.documentElement;a=a.parentElement)if(a.tagName==="A"){a=a.getAttribute("data-nohref")==="1";break a}a=!1}a&amp;&amp;b.preventDefault()},!0);}).call(this);&lt;/script&gt;&lt;style&gt;#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}
+&lt;/style&gt;&lt;style&gt;body,td,a,p,.h{font-family:arial,sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#1967d2}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}body{background:#fff;color:#000}a{color:#681da8;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#1967d2}a:visited{color:#681da8}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#f8f9fa;border:solid 1px;border-color:#dadce0 #70757a #70757a #dadce0;height:30px}.lsbb{display:block}#WqQANb a{display:inline-block;margin:0 12px}.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;color:#000;border:none;cursor:pointer;height:30px;margin:0;outline:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{background:#dadce0}.lst:focus{outline:none}&lt;/style&gt;&lt;script nonce="MEjFWY9uhXkFWVJU7hjVhg"&gt;(function(){window.google.erd={jsr:1,bv:2114,de:true,dpf:'LvHK-r4Fg2fS1eRPUMugIoIG_QAlBCsjwjWH8qKDNMM'};
+var g=this||self;var k,l=(k=g.mei)!=null?k:1,n,p=(n=g.sdo)!=null?n:!0,q=0,r,t=google.erd,v=t.jsr;google.ml=function(a,b,d,m,e){e=e===void 0?2:e;b&amp;&amp;(r=a&amp;&amp;a.message);d===void 0&amp;&amp;(d={});d.cad="ple_"+google.ple+".aple_"+google.aple;if(google.dl)return google.dl(a,e,d,!0),null;b=d;if(v&lt;0){window.console&amp;&amp;console.error(a,b);if(v===-2)throw a;b=!1}else b=!a||!a.message||a.message==="Error loading script"||q&gt;=l&amp;&amp;!m?!1:!0;if(!b)return null;q++;d=d||{};b=encodeURIComponent;var c="/gen_204?atyp=i&amp;ei="+b(google.kEI);google.kEXPI&amp;&amp;(c+="&amp;jexpid="+b(google.kEXPI));c+="&amp;srcpg="+b(google.sn)+"&amp;jsr="+b(t.jsr)+
+"&amp;bver="+b(t.bv);t.dpf&amp;&amp;(c+="&amp;dpf="+b(t.dpf));var f=a.lineNumber;f!==void 0&amp;&amp;(c+="&amp;line="+f);var h=a.fileName;h&amp;&amp;(h.indexOf("-extension:/")&gt;0&amp;&amp;(e=3),c+="&amp;script="+b(h),f&amp;&amp;h===window.location.href&amp;&amp;(f=document.documentElement.outerHTML.split("\n")[f],c+="&amp;cad="+b(f?f.substring(0,300):"No script found.")));google.ple&amp;&amp;google.ple===1&amp;&amp;(e=2);c+="&amp;jsel="+e;for(var u in d)c+="&amp;",c+=b(u),c+="=",c+=b(d[u]);c=c+"&amp;emsg="+b(a.name+": "+a.message);c=c+"&amp;jsst="+b(a.stack||"N/A");c.length&gt;=12288&amp;&amp;(c=c.substr(0,12288));a=c;m||google.log(0,"",a);return a};window.onerror=function(a,b,d,m,e){r!==a&amp;&amp;(a=e instanceof Error?e:Error(a),d===void 0||"lineNumber"in a||(a.lineNumber=d),b===void 0||"fileName"in a||(a.fileName=b),google.ml(a,!1,void 0,!1,a.name==="SyntaxError"||a.message.substring(0,11)==="SyntaxError"||a.message.indexOf("Script error")!==-1?3:0));r=null;p&amp;&amp;q&gt;=l&amp;&amp;(window.onerror=null)};})();&lt;/script&gt;&lt;/head&gt;&lt;body bgcolor="#fff"&gt;&lt;script nonce="MEjFWY9uhXkFWVJU7hjVhg"&gt;(function(){var src='/images/nav_logo229.png';var iesg=false;document.body.onload = function(){window.n &amp;&amp; window.n();if (document.images){new Image().src=src;}
+if (!iesg){document.f&amp;&amp;document.f.q.focus();document.gbqf&amp;&amp;document.gbqf.q.focus();}
+}
+})();&lt;/script&gt;&lt;div id="mngb"&gt;&lt;div id=gbar&gt;&lt;nobr&gt;&lt;b class=gb1&gt;Búsqueda&lt;/b&gt; &lt;a class=gb1 href="https://www.google.com/imghp?hl=es-419&amp;tab=wi"&gt;Imágenes&lt;/a&gt; &lt;a class=gb1 href="https://maps.google.co.cr/maps?hl=es-419&amp;tab=wl"&gt;Maps&lt;/a&gt; &lt;a class=gb1 href="https://play.google.com/?hl=es-419&amp;tab=w8"&gt;Play&lt;/a&gt; &lt;a class=gb1 href="https://www.youtube.com/?tab=w1"&gt;YouTube&lt;/a&gt; &lt;a class=gb1 href="https://news.google.com/?tab=wn"&gt;Noticias&lt;/a&gt; &lt;a class=gb1 href="https://mail.google.com/mail/?tab=wm"&gt;Gmail&lt;/a&gt; &lt;a class=gb1 href="https://drive.google.com/?tab=wo"&gt;Drive&lt;/a&gt; &lt;a class=gb1 style="text-decoration:none" href="https://www.google.co.cr/intl/es-419/about/products?tab=wh"&gt;&lt;u&gt;Más&lt;/u&gt; &amp;raquo;&lt;/a&gt;&lt;/nobr&gt;&lt;/div&gt;&lt;div id=guser width=100%&gt;&lt;nobr&gt;&lt;span id=gbn class=gbi&gt;&lt;/span&gt;&lt;span id=gbf class=gbf&gt;&lt;/span&gt;&lt;span id=gbe&gt;&lt;/span&gt;&lt;a href="http://www.google.co.cr/history/optout?hl=es-419" class=gb4&gt;Historial web&lt;/a&gt; | &lt;a  href="/preferences?hl=es-419" class=gb4&gt;Configuración&lt;/a&gt; | &lt;a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=es-419&amp;passive=true&amp;continue=https://www.google.com/%3Fquery-ciao&amp;ec=GAZAAQ" class=gb4&gt;Acceder&lt;/a&gt;&lt;/nobr&gt;&lt;/div&gt;&lt;div class=gbh style=left:0&gt;&lt;/div&gt;&lt;div class=gbh style=right:0&gt;&lt;/div&gt;&lt;/div&gt;&lt;center&gt;&lt;br clear="all" id="lgpd"&gt;&lt;div id="XjhHGf"&gt;&lt;img alt="Google" height="92" src="/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" style="padding:28px 0 14px" width="272" id="hplogo"&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;form action="/search" name="f"&gt;&lt;table cellpadding="0" cellspacing="0"&gt;&lt;tr valign="top"&gt;&lt;td width="25%"&gt;&amp;nbsp;&lt;/td&gt;&lt;td align="center" nowrap=""&gt;&lt;input name="ie" value="ISO-8859-1" type="hidden"&gt;&lt;input value="es-419" name="hl" type="hidden"&gt;&lt;input name="source" type="hidden" value="hp"&gt;&lt;input name="biw" type="hidden"&gt;&lt;input name="bih" type="hidden"&gt;&lt;div class="ds" style="height:32px;margin:4px 0"&gt;&lt;input class="lst" style="margin:0;padding:5px 8px 0 6px;vertical-align:top;color:#000" autocomplete="off" value="" title="Buscar con Google" maxlength="2048" name="q" size="57"&gt;&lt;/div&gt;&lt;br style="line-height:0"&gt;&lt;span class="ds"&gt;&lt;span class="lsbb"&gt;&lt;input class="lsb" value="Buscar con Google" name="btnG" type="submit"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="ds"&gt;&lt;span class="lsbb"&gt;&lt;input class="lsb" id="tsuid_1" value="Voy a tener... (set the log level to DEBUG or TRACE to see the full content) 
+ </msg>
+<arg>${GOOGLE_URL}</arg>
+<arg>params=query-ciao</arg>
+<arg>expected_status=200</arg>
+<doc>Sends a GET request.</doc>
+<status status="PASS" start="2024-11-12T09:33:59.617539" elapsed="0.328321"/>
+</kw>
+<kw name="Log Test Success">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-12T09:33:59.945860" level="INFO">Test ran successfully.</msg>
+<arg>Test ran successfully.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-12T09:33:59.945860" elapsed="0.001005"/>
+</kw>
+<status status="PASS" start="2024-11-12T09:33:59.945860" elapsed="0.001005"/>
+</kw>
+<status status="PASS" start="2024-11-12T09:33:59.617539" elapsed="0.329326"/>
+</test>
+<test id="s1-t2" name="Google Search Bar Test" line="21">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-12T09:33:59.946865" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>${GOOGLE_URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-12T09:33:59.946865" elapsed="2.181017"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>name:q</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-12T09:34:02.128880" elapsed="0.012093"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-12T09:34:02.141974" level="INFO">Typing text 'Selenium Test' into text field 'name:q'.</msg>
+<arg>name:q</arg>
+<arg>${SEARCH_TERM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-12T09:34:02.140973" elapsed="0.069233"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-12T09:34:02.211212" level="INFO">Clicking button 'xpath://html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]'.</msg>
+<arg>xpath://html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-12T09:34:02.210206" elapsed="0.168764"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${SEARCH_TERM}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-11-12T09:34:02.379971" elapsed="1.261076"/>
+</kw>
+<kw name="Log Test Success">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-12T09:34:03.642048" level="INFO">Test ran successfully.</msg>
+<arg>Test ran successfully.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-12T09:34:03.642048" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-11-12T09:34:03.642048" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-11-12T09:33:59.946865" elapsed="3.695183"/>
+</test>
+<doc>Test for robot</doc>
+<status status="PASS" start="2024-11-12T09:33:59.170517" elapsed="4.471531"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="GoogleTestSuite">GoogleTestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
